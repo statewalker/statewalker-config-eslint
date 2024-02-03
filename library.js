@@ -6,6 +6,10 @@ module.exports = {
     browser: true,
     es2020: true,
   },
+  globals: {
+    React: true,
+    JSX: true,
+  },
   rules: {
     "@typescript-eslint/no-explicit-any": "off",
   },
